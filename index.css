@@ -11,6 +11,8 @@ body {
 }
 
 .container {
+    position: relative;
+    top: 278px;
     max-width: 50%;
     margin: auto;
     background: rgba(255, 255, 255, 0.2);
