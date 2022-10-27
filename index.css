@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient(rgba(50,50,50, 0.3),rgba(50,50,50, 0.5)), url("shaun.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-shadow: 0 0 2px black;
+    width: 150px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    box-shadow: 1px 1px 5px black;
+}
+
+#increment-btn {
+    background: #f28482;
+}
+
+#increment-btn:hover{
+    background: #D87675;
+}
+
+#save-btn {
+    background: #b0cb56;
+}
+
+#save-btn:hover {
+    background: #A4BC4F;
+}
+
+#reset-btn {
+    background: #a0aab2;
+}
+
+#reset-btn:hover {
+    background: #869199;
+}
